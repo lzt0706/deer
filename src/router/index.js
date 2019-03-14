@@ -12,6 +12,7 @@ import OrderList from '@/components/Pages/OrderList';
 import Coupons from '@/components/Pages/Coupons';
 import KaohsiungTravel from '@/components/Pages/KaohsiungTravel';
 import MultipulationChart from '@/components/Pages/MultipulationChart'
+import Clock from '@/components/Pages/Clock';
 // import Page from '@/components/Pages/page';
 // import child from '@/components/Pages/child';
 // import child2 from '@/components/Pages/child2';
@@ -86,6 +87,11 @@ export default new VueRouter({
                     path: 'multipulation_chart',
                     name: 'MultipulationChart',
                     component: MultipulationChart,
+                },
+                {
+                    path: 'clock',
+                    name: 'Clock',
+                    component: Clock,
                 }
             ]
         },

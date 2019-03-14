@@ -46,6 +46,10 @@
             <router-link class="nav-link" to="/multipulation_chart"><i class="fas fa-sort-numeric-down"></i>
             9x9 乘法表</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/clock"><i class="far fa-clock"></i>
+            時鐘</router-link>
+          </li>
         </ul>
       </div>
     </nav>
