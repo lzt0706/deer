@@ -50,6 +50,14 @@
             <router-link class="nav-link" to="/clock"><i class="far fa-clock"></i>
             時鐘</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/time_zone"><i class="fas fa-cloud-sun"></i>
+            時區</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/aqi"><i class="fas fa-wind"></i>
+            全台空氣指標儀表板</router-link>
+          </li>
         </ul>
       </div>
     </nav>

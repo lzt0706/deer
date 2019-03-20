@@ -13,6 +13,8 @@ import Coupons from '@/components/Pages/Coupons';
 import KaohsiungTravel from '@/components/Pages/KaohsiungTravel';
 import MultipulationChart from '@/components/Pages/MultipulationChart'
 import Clock from '@/components/Pages/Clock';
+import TimeZone from '@/components/Pages/TimeZone';
+import AQI from '@/components/Pages/AQI';
 // import Page from '@/components/Pages/page';
 // import child from '@/components/Pages/child';
 // import child2 from '@/components/Pages/child2';
@@ -92,6 +94,16 @@ export default new VueRouter({
                     path: 'clock',
                     name: 'Clock',
                     component: Clock,
+                },
+                {
+                    path: 'time_zone',
+                    name: 'TimeZone',
+                    component: TimeZone,
+                },
+                {
+                    path: 'aqi',
+                    name: 'AQI',
+                    component: AQI,
                 }
             ]
         },

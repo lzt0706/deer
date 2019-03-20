@@ -67,6 +67,9 @@ export default {
       $(".second-hand").css("transform", "rotate(" + secDeg + "deg)");
       $(".minute-hand").css("transform", "rotate(" + minDeg + "deg)");
       $(".hour-hand").css("transform", "rotate(" + hourDeg + "deg)");
+
+      // console.log(now);
+      
     }
   },
   created() {
